@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 1%;
+}
+
+.retangulo-1 {
+    display: flex;
+    background-color: rgb(255, 166, 0);
+    width: 50%;
+    height: 10rem;
+}
+
+.retangulo-2 {
+    display: flex;
+    background-color: rgb(255, 166, 0);
+    width: 50%;
+    height: 10rem;
+}
+
+.centro {
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+}
+
+.center {
+    background-color: rgb(167, 224, 33);
+    width: 100%;
+    height: 35rem;
+}
+
+.assunto {
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+}
+
+.retangulo-3 {
+    background-color: rgb(49, 112, 184);
+    width: 50%;
+    height: 20rem;
+}
+
+.retangulo-4 {
+    background-color: rgb(49, 112, 184);
+    width: 50%;
+    height: 20rem;
+}
+
+.retangulo-5 {
+    background-color: rgb(49, 112, 184);
+    width: 50%;
+    height: 20rem;
+}
+
+.footer {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-1 {
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    padding: 0.25%;
+}
+
+.retangulo-6 {
+    background-color: rgb(240, 240, 240);
+    width: 50%;
+    height: 20rem;
+}
+
+.retangulo-7 {
+    background-color: rgb(240, 240, 240);
+    width: 50%;
+    height: 20rem;
+}
+
+.footer-2 {
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    padding: 0.25%;
+}
+
+.retangulo-8 {
+    background-color: rgb(240, 240, 240);
+    width: 50%;
+    height: 20rem;
+}
+
+.retangulo-9 {
+    background-color: rgb(240, 240, 240);
+    width: 50%;
+    height: 20rem;
+}
+
+@media (max-width: 768px) {
+    .header-1 {
+        flex-direction: column;
+        height: auto;
+        padding: 1%;
+        gap: 0.5rem;
+    }
+
+    .retangulo-1 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .retangulo-2 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .centro {
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+    }
+
+    .center {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .assunto {
+        display: flex;
+        gap: 0.5rem;
+        padding: 1%;
+        flex-direction: column;
+    }
+
+    .retangulo-3 {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .retangulo-4 {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .retangulo-5 {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-1 {
+        display: flex;
+        gap: 0.5rem;
+        padding: 1%;
+        flex-direction: row;
+    }
+
+    .retangulo-6 {
+
+        width: 50%;
+        height: 8rem;
+    }
+
+    .retangulo-7 {
+
+        width: 50%;
+        height: 8rem;
+    }
+
+    .footer-2 {
+        display: flex;
+        gap: 0.5rem;
+        padding: 1%;
+        flex-direction: row;
+    }
+
+    .retangulo-8 {
+
+        width: 50%;
+        height: 8rem;
+    }
+
+    .retangulo-9 {
+
+        width: 50%;
+        height: 8rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-1 {
+        flex-direction: column;
+        height: auto;
+        padding: 1%;
+        gap: 0.5rem;
+    }
+
+    .retangulo-1 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .retangulo-2 {
+        width: 100%;
+        height: 8rem;
+    }
+
+    .centro {
+        display: flex;
+        gap: 1%;
+        padding: 1%;
+        margin-top: 0.5rem;
+    }
+
+    .center {
+        width: 100%;
+        height: 10rem;
+    }
+
+    .assunto {
+        display: flex;
+        gap: 0.5rem;
+        padding: 1%;
+        flex-direction: column;
+        margin-top: 0.5rem;
+    }
+
+    .retangulo-3 {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .retangulo-4 {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .retangulo-5 {
+        width: 100%;
+        height: 12rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        gap: 0;
+    }
+
+    .footer-1 {
+        display: flex;
+        gap: 0;
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .retangulo-6 {
+        width: 50%;
+        height: 4rem;
+    }
+
+    .retangulo-7 {
+        width: 50%;
+        height: 4rem;
+    }
+
+    .footer-2 {
+        display: flex;
+        gap: 0;
+        padding: 0;
+        flex-direction: row;
+
+    }
+
+    .retangulo-8 {
+        width: 50%;
+        height: 4rem;
+    }
+
+    .retangulo-9 {
+        width: 50%;
+        height: 4rem;
+    }
+}
